@@ -37,7 +37,7 @@ This POC demonstrates how roles can be assumed from both the console and the com
 ## Script Output
 The Script will output something similar to the following, depending on the setup.conf:
 
-'''
+```
 Roles POC Setup Complete
 
 Login Information for Account Being Accessed:
@@ -66,7 +66,7 @@ For example:
 aws s3 ls s3://AAAAAAAAAAA-33333-access-logs --profile Eng2-log-access
 aws s3 ls s3://AAAAAAAAAAA-33333-access-logs --profile Ops2-log-access
 aws s3 ls s3://AAAAAAAAAAA-33333-access-logs --profile Ops2-all-access
-'''
+```
 
 ## Reference
 https://aws.amazon.com/answers/account-management/aws-multi-account-security-strategy/
