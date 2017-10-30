@@ -1,0 +1,6 @@
+setup.conf
+temp/*
+*.key
+details.txt
+secrets.txt
+fake.log
