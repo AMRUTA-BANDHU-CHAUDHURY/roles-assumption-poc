@@ -11,11 +11,11 @@ Next, edit **setup.conf** by replacing the characters to the right of the equal 
 # Set Administrator Profiles
 PROFILE1=AAAAAAAAAAAAA                     #Profile to account being accessed
 PROFILE2=BBBBBBBBBBBBB                     #Profile of account which hosts identities that assume roles
-REGION="us-east-1"
+REGION=us-east-1
 
 # Set the Account Numbers
-ACCOUNT1="999999999999"                    #Account being accessed
-ACCOUNT2="999999999999"                    #Account which hosts identities that assume roles
+ACCOUNT1=999999999999                    #Account being accessed
+ACCOUNT2=888888888888                    #Account which hosts identities that assume roles
 ```
 
 NOTE: Do not include quotes or use variables in setup.conf
