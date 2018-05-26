@@ -68,5 +68,6 @@ aws s3 ls s3://AAAAAAAAAAA-33333-access-logs --profile Ops2-log-access
 aws s3 ls s3://AAAAAAAAAAA-33333-access-logs --profile Ops2-all-access
 ```
 
-## Reference
+## References
+https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html
 https://aws.amazon.com/answers/account-management/aws-multi-account-security-strategy/
